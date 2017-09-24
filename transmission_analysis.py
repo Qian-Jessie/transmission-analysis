@@ -62,12 +62,9 @@ for line2 in f2:
         if int(line1[0]) == 0 and abs(float(line1[1]) - float(line2)) < 1e-8:
            x_direction += float(line1[2])
            #print x_direction
-
-        
+       
         if int(line1[0]) == 1 and abs(float(line1[1]) - float(line2)) < 1e-8:
             y_direction += float(line1[2])
-
-
 
         if int(line1[0]) == 2 and abs(float(line1[1]) - float(line2)) < 1e-8:
            z_direction += float(line1[2])
